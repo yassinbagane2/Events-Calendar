@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", Helvetica, sans-serif;
+  font-size: 13px;
+  max-height: 100vh;
+}
+ 
+button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+  color: inherit;
+}
+
+.container{
+  display: grid;
+  grid-template-columns: 1fr 28%;
+  height: 100vh;
+  max-height: 100vh;
+}
+
+.date-section{
+  background-color: rgba(47,51,70,255);
+  display: flex;
+  justify-content: center;
+}
+
+.error {
+  background-color: #ef4444;
+  padding: .5rem 1rem;
+  opacity: .8;
+  border-radius: 5px;
+}
+
+.add-event-toggler {
+  background-color: #3C82F9;
+  border-radius: 50%;
+  position: absolute;
+  right: 30%;
+  width: 50px;
+  height: 50px;
+  transition: .5s;
+  color: white;
+}

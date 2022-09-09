@@ -1,0 +1,98 @@
+.events-header {
+    display: flex;
+    align-items: center;
+}
+
+.events-header h2 {
+    font-weight: 500;
+    line-height: 44px;
+    font-size: 22px;
+    margin-left: .5rem;
+    color: #243D6F;
+}
+
+.events-header {
+    margin: 1.2rem 2.8rem;
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+}
+
+.events-container {
+    margin: 2rem 3.8rem; 
+    width: 100%; 
+    text-align: center;
+    position: relative;
+
+}
+.event {
+    position: relative;
+
+}
+
+.event div{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    font-size: 18px;
+    color: #243D6F;
+    transform: translate(9rem,0rem);
+    width: 75%;
+    z-index: 100;
+}
+
+.event button {
+    position: absolute;
+    right: 10%;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.divided {
+    width: 1120px;
+    height: 65px;
+    position: relative;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-bottom: 65px;
+}
+
+
+.divided .start{
+    position: absolute;
+    top: -8px;
+    left: 0;
+    color: #A4B0C3;
+}
+
+.divided .end{
+    position: absolute;
+    bottom: -8px;
+    left: 0;
+    color: #A4B0C3;
+}
+
+
+.border {
+    height: 65px;
+    border-top: 1px solid #F3F3F3;
+    border-bottom: 1px solid #F3F3F3;
+    position: absolute;
+    top: 0;
+    margin-left: 3rem;
+    width: 100%;
+}
+
+.Purple{
+    border-left: 3px solid #8576ED;
+    background: rgba(122, 108, 215, 0.15);
+}
+.Blue{
+    border-left: 3px solid #3D83F9;
+    background: rgba(61, 131, 249, 0.15);
+}
+.Orange{
+    border-left: 3px solid #EEA57C;
+    background: rgba(238, 165, 124, 0.15);
+}
